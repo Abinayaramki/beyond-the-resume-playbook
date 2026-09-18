@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A practical, interactive workbook from Women in Product Marketing™. Find your portfolio direction, build a case study, and make your proof of work visible in 30 days.">
+<meta name="theme-color" content="#31203f">
+<title>The Portfolio Proof-of-Work Workbook | Women in Product Marketing™</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2331203f'/%3E%3Cpath d='M8 8h9a6 6 0 0 1 0 12h-4v5H8zm5 5v3h4a1.5 1.5 0 0 0 0-3z' fill='%23fff'/%3E%3C/svg%3E">
+<style>
+:root{--ink:#27222e;--muted:#68616e;--purple:#31203f;--accent:#a02778;--bright:#dca3ff;--pale:#f7f4f9;--line:#e4dee9;--green:#1b715d;--radius:14px;--sans:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+*{box-sizing:border-box}html{font-size:16px;scroll-behavior:smooth}body{margin:0;font-family:var(--sans);color:var(--ink);background:#fcfbfd;line-height:1.6}button,input,textarea,select{font:inherit}button,a,input,textarea,select,summary{-webkit-tap-highlight-color:transparent}button{cursor:pointer}a{color:inherit}button:disabled{cursor:default;opacity:.42}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #a748c3;outline-offset:4px}button,input,textarea,select{min-width:0}button{line-height:1.35}h1,h2,h3,h4,p{margin-top:0}h1,h2,h3,h4{line-height:1.18;letter-spacing:-.025em}h1{font-size:clamp(2.15rem,4vw,3.4rem);font-weight:650;margin-bottom:14px}h2{font-size:1.5rem;margin-bottom:20px}h3{font-size:1.08rem;margin-bottom:10px}p{margin-bottom:16px}ul{padding-left:22px}li+li{margin-top:5px}[hidden]{display:none!important}.skip-link{position:fixed;top:-100px;left:20px;z-index:100;background:white;padding:12px}.skip-link:focus{top:12px}.sidebar{position:fixed;inset:0 auto 0 0;width:278px;background:var(--purple);color:#fff;display:flex;flex-direction:column;padding:30px 22px 22px;z-index:30;overflow:auto}.brand{font-size:1.05rem;line-height:1.3;font-weight:650;letter-spacing:-.015em}.brand span{display:block}.brand sup{font-size:.6em}.book-name{font-size:1.5rem;line-height:1.25;margin-top:36px;font-weight:550;letter-spacing:-.025em}.book-name em{font-family:Georgia,serif;color:#e5b6ff;font-weight:400}.side-tag{font-size:.75rem;text-transform:uppercase;letter-spacing:.14em;color:#c7b3d5;margin:14px 0 28px}.nav-group{font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;color:#c7b3d5;margin:18px 12px 7px}.step-link{display:flex;align-items:center;gap:10px;padding:10px 12px;margin-bottom:3px;border-radius:8px;color:#dfd3e7;text-decoration:none;font-size:.9rem;border:1px solid transparent}.step-link:hover{background:#ffffff10}.step-link[aria-current="step"]{background:#ffffff14;color:#fff;border-color:#ffffff22}.step-link[aria-current="step"] .nav-number{background:#e5b6ff;color:#30203e}.nav-number{font-size:.75rem;display:grid;place-items:center;flex:none;width:25px;height:25px;border-radius:50%;border:1px solid #796686}.nav-mark{margin-left:auto;color:#d6b7e6}.side-bottom{margin-top:auto;padding-top:35px}.progress-label{display:flex;justify-content:space-between;font-size:.8rem;color:#ddcfe8;margin-bottom:8px}progress{appearance:none;width:100%;height:5px;border:0;border-radius:8px;overflow:hidden;display:block}progress::-webkit-progress-bar{background:#604b6e}progress::-webkit-progress-value{background:#e5b6ff}progress::-moz-progress-bar{background:#e5b6ff}.side-note{font-size:.78rem;color:#c7b3d5;margin:15px 0 0;line-height:1.5}.main-shell{margin-left:278px}.toolbar{min-height:80px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 44px;background:#fff;position:sticky;top:0;z-index:20}.eyebrow{font-size:.75rem;letter-spacing:.13em;text-transform:uppercase;font-weight:650}.toolbar-title{color:var(--muted);font-size:.875rem}.toolbar-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;border:1px solid var(--line);border-radius:7px;background:white;color:var(--ink);padding:11px 16px;font-size:.875rem;font-weight:600;min-height:44px}.btn:hover{background:var(--pale);border-color:#baacc7}.btn-primary{background:var(--purple);border-color:var(--purple);color:white}.btn-primary:hover{background:#4c2e60;border-color:#4c2e60}.btn-quiet{border:0;background:transparent;padding:8px}.menu-btn{display:none}.save-status{font-size:.8rem;color:var(--muted);max-width:160px;line-height:1.35}.saved-icon{display:inline-block;margin-right:4px;color:var(--green)}.workspace{max-width:1100px;padding:40px 54px 42px;margin:auto}.section-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;gap:16px}.section-tag{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}.section-count{font-size:.85rem;color:var(--muted)}.lead{color:var(--muted);font-size:1.05rem;max-width:710px}.chapter-head{margin-bottom:26px}.chapter-head h1 em{font-family:Georgia,serif;font-weight:400;color:var(--accent)}.sheet{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px 30px;margin-bottom:22px}.sheet-title{display:flex;align-items:baseline;gap:13px;margin-bottom:20px}.sheet-title h2{margin:0}.small-number{font-family:Georgia,serif;font-size:1.4rem;color:#9b6caa}.hint{font-size:.875rem;color:var(--muted);line-height:1.55}.field{margin-bottom:22px}.field:last-child{margin-bottom:0}.field label,.field-label,legend{display:block;font-weight:600;font-size:1rem;margin-bottom:8px}.field .hint{display:block;margin:-2px 0 9px}.field textarea,.field input,.field select{display:block;width:100%;border:1px solid #d8d0df;border-radius:7px;padding:12px 14px;background:#fcfbfd;color:var(--ink);font-size:1rem;line-height:1.55;transition:border-color .15s,box-shadow .15s}.field textarea{resize:vertical;min-height:112px}.field input{min-height:48px}.field select{min-height:48px}.field textarea:focus,.field input:focus,.field select:focus{border-color:var(--accent);background:white;box-shadow:0 0 0 3px #a027780c}.field textarea::placeholder,.field input::placeholder{color:#817588;font-size:.925rem}.field.has-value label::after{content:" ✓";color:var(--green);font-size:.8rem}.field-row{display:grid;grid-template-columns:1fr 1fr;gap:20px}.field-row .field{margin:0}.field-row+.field{margin-top:22px}.callout{border-left:3px solid var(--accent);background:#f6edf5;border-radius:0 8px 8px 0;padding:18px 21px;margin:22px 0}.callout p:last-child{margin:0}.callout strong{color:#762360}.mini-note{border:1px solid var(--line);padding:15px 18px;border-radius:8px;color:var(--muted);font-size:.875rem;display:flex;gap:10px;margin:20px 0}.inline-link{color:var(--accent);text-underline-offset:3px}.goal-table{width:100%;border-collapse:collapse;text-align:left;font-size:.925rem}.goal-table th{background:var(--pale);font-size:.8rem;color:var(--muted);padding:10px 13px;font-weight:600}.goal-table td{padding:12px 13px;border-bottom:1px solid var(--line);vertical-align:top}.goal-table tr:last-child td{border-bottom:0}.goal-table th:first-child{width:43%}.disclosure{border:1px solid var(--line);background:white;border-radius:10px;margin-bottom:16px}.disclosure>summary{cursor:pointer;padding:18px 21px;font-weight:600;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:16px}.disclosure>summary::-webkit-details-marker{display:none}.disclosure>summary::after{content:"+";color:var(--accent);font-size:1.3rem;line-height:1;flex:none}.disclosure[open]>summary::after{content:"−"}.disclosure[open]>summary{border-bottom:1px solid var(--line)}.disclosure-body{padding:20px 22px}.disclosure-body>:last-child{margin-bottom:0}.formats{display:grid;grid-template-columns:1fr 1fr;gap:10px;border:0;padding:0;margin:0}.format{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--line);padding:17px;border-radius:9px;cursor:pointer;background:white}.format:has(input:checked){border-color:var(--accent);background:#fcf4fa;box-shadow:inset 0 0 0 1px var(--accent)}.format input{width:18px;height:18px;accent-color:var(--accent);flex:none;margin:3px 0 0}.format strong{display:block;font-size:.95rem;margin-bottom:4px}.format small{display:block;font-size:.875rem;color:var(--muted);line-height:1.5}.tags{display:flex;flex-wrap:wrap;gap:8px}.tag{border:1px solid var(--line);background:var(--pale);border-radius:6px;padding:7px 10px;font-size:.875rem}.ideas-role{margin-bottom:10px}.ideas-role summary{font-size:.95rem}.ideas-list{display:grid;grid-template-columns:1fr 1fr;gap:5px 25px;margin:0}.framework{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:22px 0;background:white}.framework-item{padding:17px 18px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.framework-item:nth-child(3n){border-right:0}.framework-item:nth-last-child(-n+3){border-bottom:0}.framework-item strong{display:block;font-size:.9rem;margin-bottom:4px}.framework-item p{font-size:.85rem;color:var(--muted);margin:0}.framework-item span{font-size:.7rem;color:var(--accent);display:block;letter-spacing:.1em;margin-bottom:7px}.case-label{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 18px;font-weight:650}.example-row{margin-bottom:15px}.example-row strong{font-size:.9rem}.example-row p{font-size:.925rem;margin:4px 0}.quote{font-family:Georgia,serif;font-size:1.3rem;line-height:1.55;margin:12px 0 24px;padding-left:18px;border-left:2px solid #cab1d8}.three-columns{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.reference-card{padding:20px;background:var(--pale);border:1px solid var(--line);border-radius:9px}.reference-card ul{font-size:.9rem;margin-bottom:0}.reference-card h3{font-size:1rem}.reference-card.avoid{background:#fff6f6;border-color:#ecd8dd}.check-list{display:flex;flex-direction:column;gap:1px}.check-item{display:flex;align-items:flex-start;gap:12px;padding:14px 2px;border-bottom:1px solid var(--line);cursor:pointer;line-height:1.5;font-size:.95rem}.check-item:last-child{border:0}.check-item input{width:19px;height:19px;accent-color:var(--accent);margin:2px 0 0;flex:none}.check-item:has(input:checked){color:var(--green)}.check-item span small{display:block;color:var(--muted);font-size:.85rem;margin-top:3px}.tool-groups{display:grid;grid-template-columns:1fr 1fr;gap:14px}.tool-card{background:var(--pale);border:1px solid var(--line);border-radius:8px;padding:19px}.tool-card h3{font-size:.95rem}.tool-card p{font-size:.9rem;color:var(--muted);margin:0}.metric-count{color:var(--accent);font-size:.85rem;font-weight:600;margin-left:auto}.checklist-head{display:flex;align-items:center;gap:20px;margin-bottom:8px}.checklist-head h2{margin:0}.week{display:grid;grid-template-columns:55px 1fr;gap:15px;padding:23px 0;border-bottom:1px solid var(--line)}.week:first-child{padding-top:0}.week:last-child{border:0;padding-bottom:0}.week-number{font-family:Georgia,serif;font-size:2rem;line-height:1;color:#a875b8}.week h3{font-size:1.1rem}.week p{font-size:.925rem}.week .check-item{padding:8px 0;border:none}.week-outcome{background:var(--pale);padding:10px 14px;margin:12px 0 0;border-radius:6px;font-size:.875rem}.commitment{border:1px solid #d5b3df;background:#f8f0fb;border-radius:14px;padding:28px 30px;margin-top:28px}.commitment h2{font-family:Georgia,serif;font-size:2rem;font-weight:400}.commitment .field input,.commitment .field textarea{background:white}.closing{padding:36px 8px 10px;text-align:center}.closing h2{font-family:Georgia,serif;font-weight:400;font-size:1.85rem;line-height:1.3}.closing p{color:var(--muted)}.closing strong{display:block;color:var(--accent);font-size:1.1rem}.page-footer{display:flex;justify-content:space-between;align-items:center;gap:15px;padding-top:25px;margin-top:30px;border-top:1px solid var(--line)}.page-footer .btn{max-width:55%;text-align:left}.end-note{font-size:.75rem;color:var(--muted);margin:22px 0 0;text-align:center}.toast{position:fixed;bottom:22px;left:calc(50% + 100px);transform:translateX(-50%);background:var(--purple);color:white;padding:13px 20px;max-width:calc(100vw - 32px);border-radius:9px;font-size:.9rem;box-shadow:0 8px 30px #31203f22;z-index:100}.print-cover,.print-value{display:none}.menu-scrim{display:none}.mobile-brand{display:none}.noscript{margin:30px;padding:24px;border:1px solid var(--line);background:white}
+@media(min-width:1400px){.workspace{padding-top:50px}.sidebar{width:300px;padding:36px 26px}.main-shell{margin-left:300px}.toolbar{padding-inline:54px}}
+@media(max-width:1050px){.sidebar{width:242px;padding:26px 16px}.main-shell{margin-left:242px}.workspace{padding:32px 30px}.toolbar{padding:16px 28px}.toolbar-title{display:none}.save-status{max-width:145px}.three-columns{grid-template-columns:1fr}.reference-card ul{display:grid;grid-template-columns:1fr 1fr;gap:4px 20px}.reference-card li+li{margin:0}}
+@media(max-width:760px){.sidebar{transform:translateX(-100%);transition:transform .2s;width:280px;max-width:88vw}.sidebar.open{transform:translateX(0)}.main-shell{margin:0}.toolbar{padding:12px 18px;min-height:66px;gap:10px;flex-wrap:wrap}.menu-btn{display:inline-flex;font-size:1.1rem;padding:8px 11px}.mobile-brand{display:block;font-size:.8rem;font-weight:650;line-height:1.3;margin-right:auto}.save-status{width:100%;max-width:none;order:5;font-size:.75rem;text-align:right}.toolbar-actions{gap:6px}.toolbar-actions .btn{font-size:.8rem;padding:9px 10px;min-height:42px}.workspace{padding:28px 20px 32px}h1{font-size:2.25rem}.chapter-head{margin-bottom:24px}.lead{font-size:1rem}.sheet{padding:22px 20px;border-radius:11px}.field-row{grid-template-columns:1fr}.field-row .field+.field{margin-top:0}.formats{grid-template-columns:1fr}.framework{grid-template-columns:1fr 1fr}.framework-item:nth-child(3n){border-right:1px solid var(--line)}.framework-item:nth-child(2n){border-right:0}.framework-item:nth-last-child(-n+3){border-bottom:1px solid var(--line)}.framework-item:nth-last-child(-n+2){border-bottom:0}.tool-groups{grid-template-columns:1fr}.ideas-list{grid-template-columns:1fr}.reference-card ul{grid-template-columns:1fr}.commitment{padding:24px 20px}.toast{left:50%;width:max-content}.page-footer{gap:10px}.page-footer .btn{padding:11px 12px;font-size:.825rem}.menu-scrim.active{display:block;position:fixed;inset:0;background:#180e2870;z-index:25;border:0}.goal-table{font-size:.825rem}.goal-table td,.goal-table th{padding:10px 8px}.disclosure>summary{padding:17px;font-size:.925rem}.disclosure-body{padding:18px}.section-count{font-size:.8rem}.week{grid-template-columns:36px 1fr;gap:10px}}
+.sidebar-close{display:none;position:absolute;right:16px;top:18px;background:transparent;color:#fff;border-color:#ffffff40;padding:5px 10px;font-size:1.2rem;min-height:36px}.sidebar-close:hover{background:#ffffff15;color:#fff}@media(max-width:760px){.sidebar-close{display:inline-flex}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+@media print{@page{size:A4;margin:16mm}html,body{background:white;font-size:11pt;line-height:1.5;color:#222}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}.sidebar,.toolbar,.page-footer,.end-note,.menu-scrim,.toast,.no-print{display:none!important}.main-shell{margin:0}.workspace{padding:0;max-width:none}.chapter{display:block!important;break-before:page}.chapter-head h1{font-size:27pt}.section-count{display:none}.section-top{margin-bottom:10px}.sheet,.commitment{padding:18px;margin-bottom:18px;box-shadow:none}.chapter-head{margin-bottom:20px}.sheet,.disclosure,.commitment{break-inside:auto}.field,.format,.check-item,.framework-item,.reference-card,.tool-card,.week{break-inside:avoid}h1,h2,h3,h4,summary{break-after:avoid}.disclosure-body{display:block!important}.disclosure>summary::after{display:none}.disclosure>summary{border-bottom:1px solid var(--line)}.print-cover{display:block;min-height:75vh;padding:55px 15px}.print-cover h1{font-family:Georgia,serif;font-weight:400;font-size:44pt;max-width:500px;margin:60px 0 22px}.print-cover .brand{color:var(--purple);font-size:14pt}.print-cover p{font-size:14pt;max-width:430px}.print-cover .print-date{font-size:10pt;margin-top:55px;color:var(--muted)}.field textarea,.field input,.field select{display:none!important}.print-value{display:block;white-space:pre-wrap;overflow-wrap:anywhere;min-height:36px;padding:10px 13px;border:1px solid var(--line);border-radius:5px;background:#fbf9fc;font-size:11pt}.print-value.blank{min-height:55px}.framework{grid-template-columns:repeat(3,1fr)}.formats{grid-template-columns:1fr 1fr}.three-columns{grid-template-columns:repeat(3,1fr)}.reference-card{padding:12px}.reference-card ul{display:block}.goal-table{font-size:10pt}.week-number{font-size:24pt}.closing{break-inside:avoid}.hint{font-size:10pt}.tag{font-size:10pt}.field-row{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#workbook">Skip to workbook</a>
+<button class="menu-scrim" aria-label="Close contents" tabindex="-1"></button>
+<aside class="sidebar" id="sidebar" aria-label="Workbook contents">
+  <button class="btn sidebar-close" id="close-menu-button" aria-label="Close contents">×</button>
+  <div class="brand"><span>Women in</span><span>Product Marketing<sup>™</sup></span></div>
+  <div class="book-name">The Portfolio<br><em>Proof-of-Work</em><br>Workbook</div>
+  <div class="side-tag">From experience to evidence</div>
+  <nav id="chapters-nav" aria-label="Chapters"></nav>
+  <div class="side-bottom"><div class="progress-label"><span>Your progress</span><span id="progress-label">0 of 9</span></div><progress id="progress" value="0" max="9" aria-label="Completed workbook sections"></progress><p class="side-note">Work at your own pace.<br>One project is enough to start.</p></div>
+</aside>
+<div class="main-shell">
+  <header class="toolbar">
+    <button class="btn menu-btn" id="menu-button" aria-label="Open contents" aria-controls="sidebar" aria-expanded="false">☰</button>
+    <span class="mobile-brand">Portfolio<br>Proof-of-Work</span>
+    <span class="toolbar-title">Your experience. Your evidence.</span>
+    <div class="toolbar-actions"><button class="btn" id="print-button">Print / PDF</button><button class="btn btn-primary" id="download-button">Download my copy <span aria-hidden="true">↓</span></button></div>
+    <span class="save-status" id="save-status" role="status">Answers stay in this browser</span>
+  </header>
+  <main class="workspace" id="workbook">
+    <div class="print-cover"><div class="brand">Women in Product Marketing™</div><h1>The Portfolio<br>Proof-of-Work<br>Workbook</h1><p>From experience to evidence.<br>From work to proof.</p><p>A practical guide to turning your marketing experience into visible proof of work.</p><p class="print-date" id="print-date"></p></div>
+    <div id="chapter-content"></div>
+    <noscript><div class="noscript"><h1>The Portfolio Proof-of-Work Workbook</h1><p>Please enable JavaScript to use the guided exercises, saving, and downloads.</p><p>By Women in Product Marketing™</p></div></noscript>
+    <footer class="page-footer"><button class="btn" id="previous-button"><span aria-hidden="true">←</span> <span id="previous-label">Previous</span></button><button class="btn btn-primary" id="next-button"><span id="next-label">Next: Project ideas</span> <span aria-hidden="true">→</span></button></footer>
+    <p class="end-note">Women in Product Marketing™ · The Portfolio Proof-of-Work Workbook</p>
+  </main>
+</div>
+<div id="toast" class="toast" role="status" hidden></div>
+<script id="workbook-snapshot" type="application/json">{"id":"original","answers":{},"completed":[],"page":0}</script>
+<script>
+'use strict';
+const chapterInfo = [
+ ['direction','Choose your direction','Choose your direction','Give your portfolio a <em>purpose.</em>','Before choosing a platform, decide what you want your portfolio to do and who you want it to reach.'],
+ ['ideas','Find your project','Choose your direction','Find the work worth <em>showing.</em>','Choose one project that reveals how you think, what you can do, and the problems you can solve.'],
+ ['case-study','Build your case study','Build one case study','Make your thinking <em>visible.</em>','Use this structure to turn one project into a clear, useful story. Rough notes are a good first draft.'],
+ ['evidence','Show the evidence','Build one case study','Go from claims to <em>proof.</em>','Your résumé tells people what you did. Your portfolio explains how you did it and what changed.'],
+ ['confidentiality','Share responsibly','Build one case study','Show your thinking.<br>Keep the secrets.','You can demonstrate expertise without exposing sensitive information. Decide what is appropriate to share before publishing.'],
+ ['visibility','Make it visible','Make it visible','One project.<br>More ways to be <em>seen.</em>','Turn a strong project into several useful pieces of proof. Choose the formats and tools that help you get it out into the world.'],
+ ['positioning','Define your positioning','Make it visible','What should people<br><em>remember you for?</em>','Complete these sentences, then use them to bring focus to your portfolio.'],
+ ['checklist','Get ready to publish','Make it visible','Ready for the <em>outside world?</em>','Use this checklist to review your first version. Make your contribution, thinking, and outcomes easy to understand.'],
+ ['plan','Your 30-day plan','Make it visible','Make a plan.<br>Make it <em>happen.</em>','Choose your direction, build one case study, and make it visible. A first version is something you can improve.']
+];
+const esc = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fields = new Map();
+let serial = 0;
+function field(key,label,hint='',placeholder='',kind='textarea',options=[]){
+ const id='field-'+(++serial); fields.set(key,{key,label,type:kind==='checkbox'?'boolean':'string'});
+ const described=hint?` aria-describedby="${id}-hint"`:'';
+ const attrs=`id="${id}" data-key="${key}"${described}`;
+ let control=kind==='textarea'?`<textarea ${attrs} rows="3" maxlength="30000" placeholder="${esc(placeholder)}"></textarea>`:kind==='select'?`<select ${attrs}><option value="">Choose one…</option>${options.map(o=>`<option value="${esc(o)}">${esc(o)}</option>`).join('')}</select>`:`<input ${attrs} type="${kind}"${kind==='date'?'':' maxlength="30000"'} placeholder="${esc(placeholder)}">`;
+ return `<div class="field"><label for="${id}">${label}</label>${hint?`<span class="hint" id="${id}-hint">${hint}</span>`:''}${control}</div>`;
+}
+function check(key,label,detail=''){
+ fields.set(key,{key,label:label.replace(/<[^>]+>/g,''),type:'boolean'});
+ return `<label class="check-item"><input type="checkbox" data-key="${key}"><span>${label}${detail?`<small>${detail}</small>`:''}</span></label>`;
+}
+function disclosure(title,body,open=false,extra=''){return `<details class="disclosure ${extra}"${open?' open':''}><summary>${title}</summary><div class="disclosure-body">${body}</div></details>`;}
+function sheet(title,body,n=''){return `<div class="sheet">${title?`<div class="sheet-title">${n?`<span class="small-number">${n}</span>`:''}<h2>${title}</h2></div>`:''}${body}</div>`;}
+function chips(items){return `<div class="tags">${items.map(x=>`<span class="tag">${x}</span>`).join('')}</div>`;}
+const goals=[
+ ['Find your next role','Case studies, thinking, outcomes'],['Prepare for interviews','Short portfolio deck'],['Build industry credibility','Content, frameworks, point of view'],['Move into marketing','Mock projects and teardowns'],['Get promoted internally','Strategic contributions and impact'],['Start consulting','Expertise, results, testimonials'],['Get speaking opportunities','Thought leadership and public work'],['Build your network','Consistent public proof of expertise']
+];
+const formats=[
+ ['Portfolio deck','Interviews and curated storytelling.'],['Notion portfolio','Getting started quickly and bringing several pieces of work together.'],['Personal website','A permanent home for your professional identity.'],['LinkedIn','Discoverability, opinions, lessons, and ongoing proof of expertise.'],['Newsletter or blog','Deeper thinking and a recognizable point of view.'],['Public projects','Showing capability when professional work cannot be shared.'],['Case-study library','Demonstrating how you solve specific marketing problems.']
+];
+const roles=[
+ ['Product Marketing / GTM',['Product launch','GTM strategy','Messaging framework','Positioning exercise','Market segmentation','Persona development','Product adoption campaign','Pricing or packaging work']],
+ ['Customer Marketing',['Customer advocacy program','Customer story strategy','Lifecycle campaign','Community program','Expansion or adoption campaign','Customer webinar','Reference program']],
+ ['Sales Enablement',['Battlecard framework','Sales narrative','Objection-handling framework','Enablement program','Training rollout','Pitch deck transformation','Win-loss learning program']],
+ ['Analyst Relations',['Analyst briefing narrative','Category positioning','Evaluation strategy','Recognition campaign','Market landscape','Analyst engagement program']],
+ ['Competitive Intelligence',['Competitive teardown','Market map','Win-loss analysis','Competitive positioning','Battlecard system','Competitor response strategy']],
+ ['Demand Generation',['Campaign strategy','Funnel optimization','Lead generation program','Account-based marketing (ABM) campaign','Event campaign','Conversion experiment','Landing-page optimization']],
+ ['Content / SEO',['SEO strategy','Content program','Topic cluster','Website optimization','Thought-leadership campaign','Search growth project','Content distribution strategy']],
+ ['Growth Marketing',['Growth experiment','Funnel analysis','Acquisition strategy','Conversion optimization','Retention experiment','Channel strategy']],
+ ['Product Adoption',['Onboarding program','Feature adoption campaign','In-product messaging strategy','User education initiative','Activation program']]
+];
+const framework=[['Problem','What was happening?'],['Insight','What did you learn about the audience, market, product, or business?'],['Decision','What did you decide to do and why?'],['Execution','What did you actually build, launch, change, or influence?'],['Outcome','What happened as a result?'],['Learning','What did the project teach you?']];
+const evidence=['Adoption','Engagement','Customer feedback','Sales feedback','Faster execution','Improved conversion','Internal usage','Stakeholder alignment','Reduced confusion','Increased participation','Process improvement','Better messaging consistency','Improved sales confidence','Influence on business decisions'];
+const publishChecks=[
+ 'Is it clear what I do?','Is it clear what I am good at?','Have I shown how I think?','Have I included at least one strong case study?',"Have I separated my contribution from the team’s contribution?",'Have I shown outcomes where possible?','Have I removed confidential information?','Is the portfolio easy to navigate?','Can someone contact me easily?','Does this portfolio support the opportunity I want next?'
+];
+fields.set('portfolio_format',{key:'portfolio_format',label:'My portfolio format',type:'string'});
+const chapters=[
+ disclosure('What this workbook will help you do',`<p>Your résumé tells people where you worked and what you were responsible for. Your portfolio should show:</p><ul><li>How you think</li><li>What problems you have solved</li><li>What decisions you made</li><li>What you created</li><li>What changed because of your work</li><li>What you learned along the way</li></ul><p>By the end, you should have <strong>a clear portfolio goal, one strong case study, a format that works for you, ideas relevant to your role, and a 30-day plan.</strong></p>`)+
+ sheet('Start with the goal',field('goal','The primary goal of my portfolio is:','Choose the opportunity you want your work to create.','For example, move into a product marketing role.','text')+field('audience','The people I want it to reach are:','','For example, hiring managers at growing SaaS companies.','text'),'01')+
+ disclosure('Match your goal to the right kind of proof',`<table class="goal-table"><thead><tr><th scope="col">Your goal</th><th scope="col">Prioritize</th></tr></thead><tbody>${goals.map(([a,b])=>`<tr><td>${a}</td><td>${b}</td></tr>`).join('')}</tbody></table>`)+
+ sheet('Choose a format you can start with',`<p class="hint">A portfolio is not just a website. You do not need all of these. Start with the format that makes it easiest for someone to understand your work.</p><fieldset class="formats"><legend class="field-label">My first portfolio format</legend>${formats.map(([name,description])=>`<label class="format"><input type="radio" name="portfolio_format" data-key="portfolio_format" value="${name}"><span><strong>${name}</strong><small>${description}</small></span></label>`).join('')}</fieldset>`,'02')+
+ `<div class="mini-note"><span aria-hidden="true">↳</span><span>Your answers are saved in this browser only, not submitted to the organizers. Download your copy to keep a backup or move to another device. Clearing browser data can remove your saved work.</span></div>`,
+
+ sheet('Choose your first project',field('project_title','My first case study will be:','Pick one project. It can be professional or self-initiated.','For example, repositioning a feature launch around customer outcomes.','text')+`<div class="field-row">`+field('marketing_role','My area of marketing:','','','select',roles.map(r=>r[0]).concat(['Exploring marketing / early career','Another marketing area']))+field('project_type','This project is:','','','select',['Professional work','Self-initiated project'])+`</div>`)+
+ `<h2>Portfolio ideas by role</h2><p class="hint">Explore your area, or borrow an idea from another discipline.</p>`+
+ roles.map(([role,items],i)=>disclosure(role,`<ul class="ideas-list">${items.map(x=>`<li>${x}</li>`).join('')}</ul>`,i===0,'ideas-role')).join('')+
+ sheet('Don’t have the exact role yet?',`<p>You do not need five years of experience to create a portfolio. Early-career and aspiring marketers can build proof too.</p>${chips(['Product teardown','Messaging rewrite','Mock GTM plan','Competitor comparison','Landing-page critique','Brand repositioning exercise','Persona development','Campaign concept','Content strategy','Market research project'])}<div class="callout"><p>Clearly label it as a <strong>self-initiated project</strong> and demonstrate your thinking. Do not present it as professional work.</p></div>`),
+
+ `<div class="framework">${framework.map(([a,b],i)=>`<div class="framework-item"><span>0${i+1}</span><strong>${a}</strong><p>${b}</p></div>`).join('')}</div>`+
+ sheet('Set the scene',`<p class="case-label">Your marketing case-study template</p>`+field('project_title','Project title','Give the project a clear name.','','text')+field('context','Context','What company, product, category, or situation were you working with?','Set the scene for someone unfamiliar with your work.')+field('problem','The problem','What needed to change?','Describe the challenge and why it mattered.')+field('my_role','My role','What exactly were you responsible for?','Separate your contribution from the team’s contribution.')+field('case_audience','Audience','Who were you trying to influence?','Name the audience and what they needed.'),'01')+
+ sheet('Show your thinking and your work',field('research','Research and insight','What did you learn before making a decision?','Describe the evidence or observation that shaped your thinking.')+field('strategy','Strategy','What approach did you choose and why?','Explain your decision and any trade-offs.')+field('execution','Execution','What did you create or implement?','Describe the assets, programs, changes, or decisions you delivered.')+field('collaboration','Collaboration','Who did you work with?','Show how others contributed and how you worked together.'),'02')+
+ sheet('Show what changed',field('outcome','Outcome','What changed?','Use quantitative or qualitative evidence you can support.')+field('learning','Learning','What would you repeat?','Capture what the project taught you.')+field('next_time','If I did it again','What would you change?','Show how your approach would improve.'),'03'),
+
+ disclosure('Example: turn a résumé bullet into proof of work',`<p class="case-label">Illustrative example</p><p class="hint">Résumé bullet</p><blockquote class="quote">Led GTM for a new feature launch.</blockquote>${[
+ ['Problem','Customers did not clearly understand how the new capability differed from existing alternatives.'],['Insight','Research showed that the strongest value proposition was not the feature itself but the time it saved teams.'],['Decision','We repositioned the launch narrative around the operational outcome.'],['Execution','Created messaging, enablement, launch assets, and customer communication.'],['Outcome','Improved adoption and gave sales a clearer narrative for customer conversations.']
+ ].map(([a,b])=>`<div class="example-row"><strong>${a}</strong><p>${b}</p></div>`).join('')}<div class="callout"><p>A résumé tells us <strong>what you did.</strong><br>A portfolio explains <strong>how you did it.</strong></p></div>`,true)+
+ sheet('Find the evidence you already have',`<p>Not every marketing project has a neat revenue number attached to it. You can still show evidence.</p>${chips(evidence)}<div class="callout"><p>If the outcome is qualitative, say so. <strong>Do not invent numbers</strong> just because you think a portfolio needs them.</p></div>`+field('resume_bullet','A résumé bullet I want to turn into proof:','','Write one line about a project or responsibility.')+field('evidence','Evidence I can use to support my case study:','Include the result, where the evidence comes from, and whether it is quantitative or qualitative.','For example, sales feedback, a public asset, a process improvement, or an approved adoption metric.')),
+
+ `<div class="three-columns">${[
+ ['Share',['Your process','Publicly available assets','Your role','Your thinking','Lessons','General outcomes'],''],
+ ['Anonymize',['Revenue','Pipeline','Customer names','Internal benchmarks','Sensitive metrics','Company-specific information'],''],
+ ['Do not share',['Customer data','Internal dashboards','Confidential decks','Unreleased roadmap information','Proprietary research','Sensitive competitive intelligence'],'avoid']
+ ].map(([a,items,cls])=>`<div class="reference-card ${cls}"><h3>${a}</h3><ul>${items.map(x=>`<li>${x}</li>`).join('')}</ul></div>`).join('')}</div><div class="callout"><p><strong>Show your thinking, not your company’s secrets.</strong></p><p class="hint">Anonymizing a detail does not automatically make it shareable. Use information you have permission to disclose.</p></div>`+
+ sheet('Make a sharing plan',field('shareable','What I can share:','Think about your process, public assets, role, thinking, lessons, and general outcomes.','List the material you can use.')+field('redact','What I will anonymize or remove:','','List details that should not appear in your public case study.')+field('permission','What I need permission to use:','','Record any material that needs approval before you publish.')),
+
+ sheet('Turn one project into multiple assets',`<p>You do not need ten different projects. One piece of experience can create multiple forms of proof.</p><p class="hint">Select the assets you want to make from your chosen project.</p><div class="check-list">${[
+ ['Portfolio case study','A detailed explanation of the project.'],['LinkedIn post','One lesson you learned.'],['Carousel','Your framework or process.'],['Newsletter','A deeper analysis of the problem.'],['Interview deck','A condensed version of the case study.'],['Talk or webinar','The broader lesson behind the project.']
+ ].map(([a,b],i)=>check('asset_'+i,a,b)).join('')}</div>`)+
+ sheet('Choose your tools',`<div class="tool-groups">${[
+ ['I want something simple','Google Slides · Canva · Notion'],['I want people to discover my work','LinkedIn · Newsletter · Personal blog'],['I want a permanent portfolio home','Framer · Webflow · Wix · Squarespace'],['I want to explain projects visually','Canva · Figma · Loom · Gamma']
+ ].map(([a,b])=>`<div class="tool-card"><h3>${a}</h3><p>${b}</p></div>`).join('')}</div><div class="callout"><p>The tool does not make the portfolio strong.<br><strong>The thinking inside it does.</strong></p></div>`+field('tool','I will build my portfolio using:','','Choose the tool you will actually use.','text')+field('public_piece','My first public proof-of-work piece will be:','','For example, a LinkedIn post about the lesson behind my launch.')),
+
+ sheet('Your portfolio positioning',`<p class="hint">Complete these three sentences.</p><div class="field-label">I work at the intersection of:</div><div class="field-row">`+field('intersection_a','Area one','','For example, product strategy','text')+field('intersection_b','Area two','','For example, customer storytelling','text')+`</div><div style="height:22px"></div>`+field('known_for','I want to be known for:','','What should someone associate with your work?')+field('strengths','The problems I am particularly good at solving are:','','Be specific about the problems you solve and for whom.'))+
+ `<div class="callout"><p><strong>The 30-second check</strong></p><p>Would someone understand this after spending 30 seconds on your portfolio? If not, simplify.</p></div>`,
+
+ sheet('',`<div class="checklist-head"><h2>Your portfolio starter checklist</h2><span class="metric-count" id="checklist-count">0 / 10</span></div><div class="check-list">${publishChecks.map((text,i)=>check('publish_'+i,text)).join('')}</div>`)+
+ sheet('What needs one more pass?',field('publish_notes','Before I publish, I will:','','Note the edits, approvals, or missing proof you still need.')),
+
+ sheet('The 30-day portfolio plan',[
+ ['Define',['Choose your audience','Choose your career goal','Decide what you want to be known for','Choose your portfolio format'],'A clear portfolio direction.'],
+ ['Build your first proof',['Choose one project','Write the problem and insight','Explain your decision and execution','Capture the outcome and learning'],'Your first case study.'],
+ ['Build the home',['Choose your platform','Set up your introduction and About section','Add case studies and public work','Add your contact information'],'A working portfolio.'],
+ ['Make it visible',['Publish one piece of proof','Ask three trusted people for feedback','Improve what they struggled to understand'],'Your portfolio is no longer sitting privately on your laptop.']
+ ].map(([title,tasks,outcome],week)=>`<div class="week"><div class="week-number">0${week+1}</div><div><h3>Week ${week+1}: ${title}</h3><div class="check-list">${tasks.map((task,i)=>check('week_'+week+'_'+i,task)).join('')}</div><p class="week-outcome"><strong>Outcome:</strong> ${outcome}</p></div></div>`).join(''))+
+ `<div class="commitment"><p class="case-label">Your 30-day commitment</p><h2>Put it in writing.</h2><p class="hint">Your earlier answers are carried here. You can refine them as your plan takes shape.</p>`+
+ field('goal','I want my portfolio to help me:','','','text')+field('known_for','I want to be known for:')+field('project_title','My first case study will be:','','','text')+field('tool','I will build it using:','','','text')+field('public_piece','My first public proof-of-work piece will be:')+field('publish_date','I will publish my first version by:','','','date')+`</div>`+
+ `<div class="closing"><h2>Your portfolio does not need to prove<br>that you’ve done everything.</h2><p>It needs to make the right things about you easier to see.</p><p>Start with one project. Show the problem.<br>Show your thinking. Show what you did.<br>Show what changed. Then keep building.</p><strong>Your work already exists.<br>Now make the proof visible.</strong></div>`
+];
+</script>
+<script>
+(() => {
+ const originalHTML='<!doctype html>\n'+document.documentElement.outerHTML;
+ const storagePrefix='wipm-portfolio-workbook-v1:';
+ const $=selector=>document.querySelector(selector);
+ const $$=selector=>Array.from(document.querySelectorAll(selector));
+ const cleanAnswers=raw=>{
+  const answers={};
+  if(!raw||typeof raw!=='object'||Array.isArray(raw)) return answers;
+  for(const [key,value] of Object.entries(raw)){
+   const schema=fields.get(key); if(!schema) continue;
+   if(schema.type==='boolean'&&typeof value==='boolean') answers[key]=value;
+   if(schema.type==='string'&&typeof value==='string'&&value.length<=30000) answers[key]=value;
+  }
+  return answers;
+ };
+ const cleanState=raw=>({
+  id:typeof raw?.id==='string'&&/^[a-zA-Z0-9-]{1,80}$/.test(raw.id)?raw.id:'original',
+  answers:cleanAnswers(raw?.answers),
+  completed:Array.isArray(raw?.completed)?Array.from(new Set(raw.completed.filter(x=>Number.isInteger(x)&&x>=0&&x<9))):[],
+  page:Number.isInteger(raw?.page)&&raw.page>=0&&raw.page<9?raw.page:0
+ });
+ let snapshot;try{snapshot=cleanState(JSON.parse($('#workbook-snapshot').textContent));}catch{snapshot=cleanState({});}
+ let state=snapshot,storageAvailable=true,hasSaved=false;
+ const storageKey=storagePrefix+snapshot.id;
+ try{
+  const saved=localStorage.getItem(storageKey);
+  if(saved){const parsed=JSON.parse(saved);if(parsed?.id===snapshot.id){state=cleanState(parsed);hasSaved=true;}}
+  const probe=storageKey+':availability';localStorage.setItem(probe,'1');localStorage.removeItem(probe);
+ }catch{storageAvailable=false;}
+ function status(message){$('#save-status').textContent=message;}
+ function save(){
+  try{localStorage.setItem(storageKey,JSON.stringify(state));storageAvailable=true;hasSaved=true;status('✓ Saved in this browser');}
+  catch{storageAvailable=false;status('Saving unavailable. Download a copy.');}
+ }
+ function setControls(key,value){
+  $$('[data-key]').filter(control=>control.dataset.key===key).forEach(control=>{
+   if(control.type==='checkbox') control.checked=Boolean(value);
+   else if(control.type==='radio') control.checked=control.value===value;
+   else if(control.value!==String(value??'')) control.value=String(value??'');
+   control.closest('.field')?.classList.toggle('has-value',typeof value==='string'&&Boolean(value.trim()));
+  });
+ }
+ function updateCounts(){
+  const count=state.completed.length;
+  $('#progress').value=count;$('#progress-label').textContent=`${count} of 9`;
+  $('#progress').setAttribute('aria-valuetext',`${count} of 9 sections completed`);
+  $$('.nav-mark').forEach((el,i)=>{el.textContent=state.completed.includes(i)?'✓':'';el.setAttribute('aria-label',state.completed.includes(i)?'Completed':'');});
+  $$('[data-complete]').forEach(el=>el.checked=state.completed.includes(Number(el.dataset.complete)));
+  const checks=publishChecks.filter((_,i)=>state.answers['publish_'+i]===true).length;
+  $('#checklist-count').textContent=`${checks} / 10`;
+ }
+ function setAnswer(key,value){state.answers[key]=value;setControls(key,value);updateCounts();save();}
+ $('#chapter-content').innerHTML=chapters.map((content,i)=>`<section class="chapter" id="chapter-${chapterInfo[i][0]}" aria-labelledby="heading-${i}"${i===state.page?'':' hidden'}><div class="chapter-head"><div class="section-top"><span class="section-tag">${chapterInfo[i][2]}</span><span class="section-count">${String(i+1).padStart(2,'0')} / 09</span></div><h1 id="heading-${i}" tabindex="-1">${chapterInfo[i][3]}</h1><p class="lead">${chapterInfo[i][4]}</p></div>${content}<div class="sheet no-print" style="margin-top:28px;padding:12px 22px"><label class="check-item"><input type="checkbox" data-complete="${i}"><span>I’ve finished this section for now.</span></label></div></section>`).join('');
+ $('#chapters-nav').innerHTML=chapterInfo.map(([id,title],i)=>`${[0,2,5].includes(i)?`<div class="nav-group">${i===0?'01 · Choose':i===2?'02 · Build':'03 · Make visible'}</div>`:''}<a class="step-link" href="#${id}" data-page="${i}"><span class="nav-number" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><span>${title}</span><span class="nav-mark"></span></a>`).join('');
+ for(const [key,value] of Object.entries(state.answers))setControls(key,value);
+ updateCounts();
+ status(storageAvailable?(hasSaved?'✓ Saved in this browser':'Answers stay in this browser'):'Saving unavailable. Download a copy.');
+ $('#chapter-content').addEventListener('input',event=>{
+  const control=event.target;
+  if(!control.matches('[data-key]'))return;
+  setAnswer(control.dataset.key,control.type==='checkbox'?control.checked:control.value);
+ });
+ $('#chapter-content').addEventListener('change',event=>{
+  const control=event.target;
+  if(control.matches('[data-key]'))setAnswer(control.dataset.key,control.type==='checkbox'?control.checked:control.value);
+  if(control.matches('[data-complete]')){
+   const index=Number(control.dataset.complete);
+   state.completed=control.checked?Array.from(new Set([...state.completed,index])):state.completed.filter(x=>x!==index);
+   updateCounts();save();
+  }
+ });
+ const mobile=matchMedia('(max-width: 760px)');
+ function closeMenu(returnFocus=false){
+  $('#sidebar').classList.remove('open');$('.menu-scrim').classList.remove('active');$('#menu-button').setAttribute('aria-expanded','false');
+  $('#sidebar').inert=mobile.matches;
+  if(returnFocus)$('#menu-button').focus();
+ }
+ function openMenu(){
+  $('#sidebar').inert=false;$('#sidebar').classList.add('open');$('.menu-scrim').classList.add('active');$('#menu-button').setAttribute('aria-expanded','true');
+  $('.step-link[aria-current="step"]').focus();
+ }
+ $('#menu-button').addEventListener('click',()=>$('#sidebar').classList.contains('open')?closeMenu(true):openMenu());
+ $('#close-menu-button').addEventListener('click',()=>closeMenu(true));
+ $('.menu-scrim').addEventListener('click',()=>closeMenu(true));
+ document.addEventListener('keydown',event=>{
+  if(!mobile.matches||!$('#sidebar').classList.contains('open'))return;
+  if(event.key==='Escape'){event.preventDefault();closeMenu(true);}
+  if(event.key==='Tab'){
+   const links=[$('#close-menu-button'),...$$('.step-link')];const first=links[0],last=links.at(-1);
+   if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}
+   if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}
+  }
+ });
+ mobile.addEventListener('change',()=>closeMenu());closeMenu();
+ function navigate(index,{focus=true,persist=true,hash=true}={}){
+  if(!Number.isInteger(index)||index<0||index>=chapters.length)return;
+  state.page=index;
+  $$('.chapter').forEach((chapter,i)=>chapter.hidden=i!==index);
+  $$('.step-link').forEach((link,i)=>{if(i===index)link.setAttribute('aria-current','step');else link.removeAttribute('aria-current');});
+  $('#previous-button').disabled=index===0;
+  $('#previous-label').textContent=index>0?chapterInfo[index-1][1]:'Previous';
+  $('#next-label').textContent=index===8?'Download my workbook':`Next: ${chapterInfo[index+1][1]}`;
+  closeMenu();
+  if(hash&&location.hash!=='#'+chapterInfo[index][0]){
+   try{history.replaceState(null,'','#'+chapterInfo[index][0]);}catch{location.hash=chapterInfo[index][0];}
+  }
+  if(persist)save();
+  if(focus){$(`#heading-${index}`).focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'});}
+ }
+ $('#chapters-nav').addEventListener('click',event=>{const link=event.target.closest('[data-page]');if(link){event.preventDefault();navigate(Number(link.dataset.page));}});
+ $('#previous-button').addEventListener('click',()=>navigate(state.page-1));
+ $('#next-button').addEventListener('click',()=>state.page===8?download():navigate(state.page+1));
+ window.addEventListener('hashchange',()=>{const index=chapterInfo.findIndex(x=>'#'+x[0]===location.hash);if(index>=0)navigate(index,{hash:false});});
+ const hashIndex=chapterInfo.findIndex(x=>'#'+x[0]===location.hash);
+ navigate(hashIndex>=0?hashIndex:state.page,{focus:false,persist:false});
+ let toastTimer;
+ function toast(message){$('#toast').textContent=message;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,5000);}
+ function download(){
+  try{
+   const parsed=new DOMParser().parseFromString(originalHTML,'text/html');
+   const copy={...state,id:globalThis.crypto?.randomUUID?.()??('copy-'+Date.now()+'-'+Math.random().toString(36).slice(2))};
+   parsed.querySelector('#workbook-snapshot').textContent=JSON.stringify(copy).replace(/</g,'\\u003c');
+   const blob=new Blob(['<!doctype html>\n'+parsed.documentElement.outerHTML],{type:'text/html;charset=utf-8'});
+   const url=URL.createObjectURL(blob);const a=document.createElement('a');
+   a.href=url;a.download='My-Portfolio-Proof-of-Work-Workbook.html';document.body.append(a);a.click();a.remove();
+   setTimeout(()=>URL.revokeObjectURL(url),60000);
+   toast('Copy downloaded with your answers. Open it in a browser to continue.');
+  }catch{toast('The download could not be created. Try Print / PDF to keep your answers.');}
+ }
+ $('#download-button').addEventListener('click',download);
+ let detailsBeforePrint=[];
+ function preparePrint(){
+  $$('.print-value').forEach(el=>el.remove());
+  detailsBeforePrint=$$('details').filter(el=>el.open);$$('details').forEach(el=>el.open=true);
+  $$('.field [data-key]').forEach(control=>{
+   const value=document.createElement('div');value.className='print-value';
+   const answer=state.answers[control.dataset.key]??'';
+   value.textContent=String(answer);value.classList.toggle('blank',!String(answer).trim());control.after(value);
+  });
+  $('#print-date').textContent='Workbook copy · '+new Date().toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'});
+ }
+ function finishPrint(){
+  $$('details').forEach(el=>el.open=detailsBeforePrint.includes(el));
+  $$('.print-value').forEach(el=>el.remove());
+ }
+ $('#print-button').addEventListener('click',()=>window.print());
+ window.addEventListener('beforeprint',preparePrint);window.addEventListener('afterprint',finishPrint);
+ window.addEventListener('storage',event=>{
+  if(event.key!==storageKey)return;
+  if(!event.newValue){toast('Saved browser data changed. Download your current copy to keep it.');return;}
+  try{
+   const fresh=cleanState(JSON.parse(event.newValue));
+   if(fresh.id!==state.id)return;
+   state.answers=fresh.answers;state.completed=fresh.completed;
+   for(const key of fields.keys())setControls(key,state.answers[key]??'');
+   updateCounts();status('✓ Updated from another tab');
+  }catch{}
+ });
+ // A structured, local-only interface for browsers that support WebMCP.
+ const context=document.modelContext;
+ if(context?.registerTool){
+  const lifecycle=new AbortController();window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true});
+  const register=tool=>{try{Promise.resolve(context.registerTool(tool,{signal:lifecycle.signal})).catch(()=>{});}catch{}};
+  register({
+   name:'read_portfolio_workbook',title:'Read portfolio workbook',
+   description:'Read the current local workbook answers, field keys, current section, and completed sections.',
+   inputSchema:{type:'object',properties:{},additionalProperties:false},
+   annotations:{readOnlyHint:true,untrustedContentHint:true},
+   execute(input){if(input==null||typeof input!=='object'||Object.keys(input).length)throw new Error('Expected an empty object.');return {currentSection:chapterInfo[state.page][0],answers:{...state.answers},completedSections:state.completed.map(i=>chapterInfo[i][0]),fields:Array.from(fields.values())};}
+  });
+  register({
+   name:'update_portfolio_answers',title:'Update portfolio workbook answers',
+   description:'Update one or more answers in the visible workbook and save them in this browser. Does not publish or submit answers.',
+   inputSchema:{type:'object',properties:{answers:{type:'object',minProperties:1,additionalProperties:{type:['string','boolean']}}},required:['answers'],additionalProperties:false},
+   annotations:{readOnlyHint:false,untrustedContentHint:true},
+   execute(input){
+    if(!input||typeof input!=='object'||Object.keys(input).some(k=>k!=='answers')||!input.answers||typeof input.answers!=='object'||Array.isArray(input.answers)||!Object.keys(input.answers).length)throw new Error('Provide an answers object.');
+    const pairs=Object.entries(input.answers);
+    for(const [key,value] of pairs){
+     const schema=fields.get(key);if(!schema||typeof value!==schema.type||(typeof value==='string'&&value.length>30000))throw new Error('Unknown field or invalid answer: '+key);
+     const controls=$$('[data-key]').filter(el=>el.dataset.key===key);
+     const select=controls.find(el=>el.tagName==='SELECT');
+     if(select&&value!==''&&!Array.from(select.options).some(o=>o.value===value))throw new Error('Choose an available option for '+key);
+     const radios=controls.filter(el=>el.type==='radio');
+     if(radios.length&&value!==''&&!radios.some(el=>el.value===value))throw new Error('Choose an available format.');
+     if(key==='publish_date'&&value!==''){
+      const date=new Date(value+'T00:00:00Z');
+      if(!/^\d{4}-\d{2}-\d{2}$/.test(value)||!Number.isFinite(date.getTime())||date.toISOString().slice(0,10)!==value)throw new Error('Use a valid YYYY-MM-DD date.');
+     }
+    }
+    for(const [key,value] of pairs){state.answers[key]=value;setControls(key,value);}updateCounts();save();
+    return {updatedFields:pairs.map(([key])=>key),savedInBrowser:storageAvailable};
+   }
+  });
+  register({
+   name:'navigate_portfolio_section',title:'Open workbook section',description:'Navigate to a workbook section without marking it complete.',
+   inputSchema:{type:'object',properties:{section:{type:'string',enum:chapterInfo.map(x=>x[0])}},required:['section'],additionalProperties:false},
+   annotations:{readOnlyHint:false,untrustedContentHint:false},
+   execute(input){if(!input||typeof input!=='object'||Object.keys(input).some(k=>k!=='section'))throw new Error('Provide a section.');const i=chapterInfo.findIndex(x=>x[0]===input.section);if(i<0)throw new Error('Unknown workbook section.');navigate(i);return {section:chapterInfo[i][0]};}
+  });
+ }
+})();
+</script>
+</body>
+</html>
